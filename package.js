@@ -21,5 +21,5 @@ Package.onUse(function(api) {
   // api.use('angularjs:angular@1.2.3', 'client'); // Dependencies
   api.use('d3js:d3@3.5.5','client');
 
-  api.addFiles('.tmp/build/line-chart.js', 'client'); // Files in use
+  api.addFiles('build/line-chart.js', 'client'); // Files in use
 });
